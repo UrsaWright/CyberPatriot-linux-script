@@ -12,7 +12,7 @@ apt-get -V -y install sysv-rc-conf
 apt-get -V -y install clamav 
 apt-get -V -y install firestarter
 apt-get -V -y install --reinstall coreutils
-freshclam
+#freshclam
 apt-get update
 apt-get upgrade
 apt-get dist-upgrade
