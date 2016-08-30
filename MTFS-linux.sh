@@ -14,6 +14,8 @@ function main {
 	echo "Big thanks to JoshuaTatum"
 
 	echo " "
+	#install
+	sh install.sh
 	#config-edit
 	sh config-edits.sh
 	echo "Manual config edited"
