@@ -15,17 +15,17 @@ function main {
 
 	echo " "
 	#install
-	sh install.sh
+	sh install.sh 2&>1
 	#config-edit
-	sh config-edits.sh
+	sh config-edits.sh 2&>1
 	echo "Manual config edited"
 	#antivirus
-	sh antivirus.sh
+	sh antivirus.sh 2&>1
 	echo "That should de-gunk the processor"
 	#network stuff
-	sh network.sh
+	sh network.sh 2&>1
 	#media file deletion
-	sh media.sh
+	sh media.sh 2&>1
 	echo "media crap should be gone now"
 	#user upgrade
 		#passwd
