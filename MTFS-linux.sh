@@ -8,7 +8,7 @@ function main {
 	#ensure start-up
 	echo " "
 	
-	cat MTFS.txt
+	less -FX MTFS.txt
 	echo "I'm awake, it's ($now), in my opinion it's too damn early for this"
 	echo "run as {sudo xterm -hold -e 'sh MTFS-linux.sh 2>&1 | tee output.log'} to output the console output to a log file."
 	echo "Big thanks to JoshuaTatum"
@@ -45,5 +45,3 @@ function main {
 	echo "I give up, I ran out of stuff to do at ($now)"
 
 }
-
-
